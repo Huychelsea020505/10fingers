@@ -1,0 +1,79 @@
+body{
+background-color: #426ef0;
+color: beige;
+font-family: "Poppins";
+}
+#counter {
+    box-shadow: 0 4px 8px rgba(137, 206, 88, 0.2);
+    padding: 8px;
+    background-color: aliceblue;
+    color: rgb(44, 44, 44);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+#calculator {
+    box-shadow: 0 4px 8px rgba(212, 200, 200, 0.2);
+    padding: 8px;
+    background-color: aliceblue;
+    color: rgb(44, 44, 44);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.sizebox{
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+#display{
+ 
+        width: 100%;
+        height: 100px;
+        background-color: rgb(21, 22, 24);
+        color: rgb(248, 246, 246);
+        font-size: 48px;
+        text-align: right;
+        padding: 8px;
+        border-radius: 10px;
+        border-bottom: 8px;
+    
+}
+.primary-button{
+    background-color: #426ef0;
+    color: beige;
+    font-family: "Poppins";
+}
+
+#keyboard {
+    padding-top: 50px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.key{
+    width: 100%;
+    height: 64px;
+    margin: 8px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 1s cubic-bezier(0.075,0.82,0.16) ;
+}
+.key:hover{
+    background-color: #426ef0;
+    color: #f6f6f6;
+    transition: 1s cubic-bezier(0.075,0.82,0.16) ;
+}
